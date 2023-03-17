@@ -7,15 +7,29 @@ maintainers = ["Gavin Medley <gavin.medley@lasp.colorado.edu>"]
 license = "BSD-3-Clause"
 readme = "README.md"
 include = ["LICENSE.txt", "CITATION.cff"]
+repository = "https://github.com/medley56/space_packet_parser"
+homepage = ""
+keywords = [
+    "spice",
+    "spice kernel",
+    "furnsh",
+    "naif",
+    "nasa",
+    "jpl",
+    "spiceypy",
+    "lasp",
+    "university of colorado",
+    "python"
+]
 
 [tool.poetry.dependencies]
 python = ">=3.8,<3.12"
-spiceypy = "^4.0.3"
+spiceypy = ">=4"
 requests = "^2.26.0"
 
 [tool.poetry.dev-dependencies]
-pytest = "^6.2.5"
-pytest-cov = "^3.0.0"
+pytest = "^7"
+pytest-cov = ">=4"
 pytest-randomly = "^3.10.3"
 
 [build-system]
